@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+.left{
+    width: 20%;
+    height: 100%;
+    background-color:#C8DBBE;
+}
+.right{
+    width: 80%;
+    height: 100%;
+    background-color: #FFFBE9;
+}
+.technical-skills{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logo-image{
+    width: 200px;
+    height:200px;
+    overflow:hidden;
+}
+.logo-image img{
+    width: 100%;
+    height: auto;
+}
+.top{
+    text-align: center;
+
+}

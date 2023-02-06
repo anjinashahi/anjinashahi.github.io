@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hobbies{
+    position: relative;
+    /* width: 100%; */
+    font-size: 1.5em;
+}
+
+.hobbies:nth-child(even){
+   margin-left: 60%;
+}
+
+
+.circle-image{
+    border-radius: 50%;
+    width:300px;
+    height: 300px;
+    overflow: hidden;
+}
+.circle-image img{
+    width: 100%;
+    height: auto;
+}
+.odd-text{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    color: rgb(156, 30, 30);
+    /* background-color:rgba(156, 30, 30, 0.7); */
+
+}
+
+.even-text{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    color: rgb(156, 30, 30);
+    /* background-color:rgba(156, 30, 30, 0.7); */
+
+}
+
+

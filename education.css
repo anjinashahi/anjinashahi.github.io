@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.school{
+    background-color: #9F8772;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    margin: 20px;
+    
+}
+.highschool{
+    background-color: #E8D2A6;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    margin: 20px;
+    
+}
+
+.college{
+    background-color: #9F8772;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    margin:20px;
+}
