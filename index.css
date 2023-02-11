@@ -95,12 +95,12 @@ body{
     padding-top: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-nav .fa-solid{
+/* nav .fa-solid{
     display: none;
 }
 nav .fa-regular{
-    display:none;
-}
+    display:none; */
+/* } */
 /* @media screen and (max-width:480px){
     .main{
         display:flex;
@@ -127,7 +127,7 @@ nav .fa-regular{
         margin-top: 50px;
     }
 } */
-@media only screen and (max-width: 600px){
+/* @media only screen and (max-width: 600px){
     .main{
         display:flex;
         flex-direction: column;
@@ -144,6 +144,9 @@ nav .fa-regular{
         display: flex;
         flex-direction: column;
         overflow: scroll;
+    }
+    .right-content{
+        position: initial;
     }
     .h1{
     
@@ -178,5 +181,41 @@ nav .fa-regular{
         top : 5px;
         left: 150px;
         cursor: pointer;
+    }
+} */
+@media screen and (max-width: 600px){
+    .main{
+        display:flex;
+        flex-direction: column;
+        overflow: auto;
+        height: auto;
+    }
+    .left{
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+        width:auto;
+        height: 0px;
+        min-height: 0px;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        /* overflow-x: hidden; */
+        width: 100%;
+    }
+.main-image{
+        width: 80%;
+    }
+    .right-content{
+        position: initial;
+        overflow: hidden;
+    }
+    .h1{
+    
+        font-size: 18px;
+    }
+    .intro{
+        font-size: 15px;
     }
 }
