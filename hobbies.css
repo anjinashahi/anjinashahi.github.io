@@ -5,7 +5,6 @@
 }
 .hobbies{
     position: relative;
-    /* width: 100%; */
     font-size: 1.5em;
 }
 
@@ -26,18 +25,23 @@
 }
 .odd-text{
     position: absolute;
-    top: 200px;
-    left: 250px;
-    color: rgb(156, 30, 30);
+    top: 100px;
+    left: 325px;
+    color: #472D2D;
+    font-size:30px;
     /* background-color:rgba(156, 30, 30, 0.7); */
+    font-size: 22px;
 
 }
 
 .even-text{
     position: absolute;
-    top: 200px;
-    left: 0px;
-    color: rgb(156, 30, 30);
+    top: 100px;
+    left: -570px;
+    color: white;
+    font-size: 30px;
+    color:#472D2D;
+    font-size: 22px;
     /* background-color:rgba(156, 30, 30, 0.7); */
 
 }

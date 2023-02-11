@@ -8,9 +8,68 @@
     width: 100%;
     height: 100vh;
     background-color: blanchedalmond;
-}
+   
+}  
 .left{
     width: 20%;
     height: 100%;
     background-color:#C8DBBE;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    /* justify-content: space-around; */
+}
+.info{
+    padding-top: 70px;
+    padding-right: 40px;
+    /* background-color: bisque; */
+    padding-bottom: 40px;
+    width:30%;
+}
+.form{
+    padding: 70px;
+    padding-left: 100px;
+    /* background-color: blueviolet; */
+    width:70%;
+}
+.head{
+    padding-bottom:40px;
+    /* font-size: 20px; */
+}
+.mail{
+    padding-bottom: 10px;
+}
+.number{
+    padding-bottom: 10px;
+}
+.form form{
+    width: 100%;
+}
+.form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: aliceblue;
+    padding: 15px;
+    margin: 15px 0px;
+    color: black;
+    font-size: 20px;
+
+}
+.sub{
+    background-color: #87431D;
+    border-radius: 20px;
+    padding: 20px;
+}
+.sub1{
+    
+        background-color: #87431D;
+        border-radius: 10px;
+        padding: 15px; 
+
+}
+.icons{
+    padding-bottom: 10px;
 }

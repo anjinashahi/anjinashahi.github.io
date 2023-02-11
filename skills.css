@@ -23,12 +23,17 @@
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-right: 20px;
+}
+
+.technical-skills div{
+    margin-left: 35px;
 }
 .logo-image{
     width: 200px;
-    height:200px;
+    height: 200px;
+    border-radius: 50%;
     overflow:hidden;
 }
 .logo-image img{
@@ -37,5 +42,35 @@
 }
 .top{
     text-align: center;
+    padding-bottom: 15px;
+}
+.java{
+    padding-bottom: 50px;
+    /* display:flex;
+    flex-direction: row; */
+}
+.python{
+    padding-bottom: 50px;
+}
+.java1{
+    /* position: absolute;
+    top: 170px;
+    left: 320px; */
+    padding-left: 170px;
+    font-size: 18px;
+
+}
+.python1{
+    padding-left: 170px;
+    font-size: 18px;
+}
+.html1{
+    padding-left: 170px;
+    font-size: 18px;
+
+}
+.css1{
+    padding-left: 170px;
+    font-size: 18px;
 
 }
